@@ -269,7 +269,13 @@ header
   color: #ed563b;
   font-weight: 900;
 }
-
+@media (max-width: 600px) {
+  .header-area .main-nav .logo {
+    font-size: 22px; /* Adjust as needed */
+    line-height: 40px; /* Adjust as needed */
+    text-align: left;
+  }
+}
 .header-area .main-nav .nav {
   float: right;
   margin-top: 27px;
